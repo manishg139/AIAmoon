@@ -1,0 +1,26 @@
+
+<html lang="en">
+<head>
+    <meta  charset="UTF=8">
+    <title>Dashboard</title>    
+</head> 
+
+
+<body>
+
+    <h1> Login Success</h1>
+    <label>Welcome to your Dashboard </label>
+    <button type="submit" > Logout</button>
+<br><br><br><br>
+<form action = "/upload" method = "POST" enctype = "multipart/form-data">
+    <input type = "file" name = "file" />
+    <input type = "submit" value = "Submit" />
+</form>
+<select name= "colour" method="GET" action="/upload">
+    {% for colour in colours %}
+    <option value= "{{colour}}" SELECTED>{{colour}}</option>"
+    {% endfor %}
+</select>
+
+</body>
+</html>
