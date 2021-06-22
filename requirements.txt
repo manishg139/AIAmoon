@@ -58,7 +58,6 @@ pickleshare==0.7.5
 pipwin==0.5.1
 prometheus-client==0.10.1
 prompt-toolkit==3.0.18
-PyAudio @ file:///C:/Users/user/pipwin/PyAudio-0.2.11-cp39-cp39-win_amd64.whl
 pycparser==2.20
 Pygments==2.8.1
 pyjsparser==2.7.1
